@@ -1,0 +1,64 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-horizontal{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    animation: slide 20s linear  infinite alternate ;
+    position: relative;
+    overflow-x: visible;
+}
+.flex-item{
+    width: 100%;
+}
+.main-img{
+    width: 50%;
+    float: left;
+}
+.h2{
+    float: right;
+    color: #023e8a;
+    text-shadow: 2px 2px #fca311 ;
+    margin-top: 15rem;
+    margin-right: 18rem;
+    font-size: 10rem;
+    
+}
+.p{
+    color: #fca311;
+    font-size: 3rem;
+    float: right;
+    margin-top: 2rem;
+    margin-right: 10rem;
+}
+.q{
+    color:darkblue;
+    font-size: 1rem;
+    float: right;
+    margin-top: -25rem;
+    margin-right: 5rem;
+    margin-left: 60rem;
+}
+.card-img{
+    height:2rem;
+    padding: 0.5rem 1rem 0.5rem;
+}
+.flex-item-small{
+    min-width: 25rem;
+}
+@keyframes slide {
+    0% {
+        right: 0px;
+    }
+    100%{
+        right: 100%;
+    }
+    
+}
+.top-coins{
+    overflow: hidden;
+}

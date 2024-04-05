@@ -1,0 +1,104 @@
+@import url(https://fonts.google.com/share?selection.family=Unna:ital,wght@0,400;0,700;1,400;1,700);
+body{
+    background-color: #E5E5E5;
+    position: relative;
+    font-family: "unna";
+    padding-bottom: 5rem;
+    min-height: calc(100vh - 5rem);
+}
+body, h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+}
+.d-inline{
+    display: inline;
+}
+nav{
+    background-color: white;
+    padding: 1rem;
+    width: calc(100% - 2rem);
+}
+.f-right{
+    float: right;
+    
+}
+.f-left{
+    float: left;
+}
+.nav-button{
+    background-color: white;
+    border: 1px solid #FCA311;
+    border-radius: 5px;
+    padding: 0.5rem 1.25rem 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all 0.25s;
+    vertical-align: top;
+    margin-top: 0.5rem;
+    font-family: "unna";
+    gap: 1rem;
+}
+.nav-button:hover{
+    background-color: #FCA311;
+    color: white;
+}
+.logo-img{
+    height: 5rem;
+    size: 7rem;
+    vertical-align: top;
+    margin-left: 40rem;
+    
+}
+.logo-img1{
+    height: 4rem;
+    size: 7rem;
+    vertical-align: top;
+    margin-top: 0.75rem;
+}
+.ml-1{
+    margin-left: 1rem;
+}
+.mr-1{
+    margin-right: 1rem;
+}
+.mt-1{
+    margin-top: 1rem;
+}
+.mb-1{
+    margin-bottom: 1rem;
+}
+.mt-5{
+    margin-top: 5rem;
+}
+.mr-5{
+    margin-right: 5rem;
+}
+.ml-5{
+    margin-left: 5rem;
+}
+.text-centre{
+    text-align: center;
+    color: #FCA311;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.card{
+    margin-top: 2rem;
+    background-color:white ;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 30rem;
+}
+.footer-img{
+    height: 2rem;
+    
+}
+.footer{
+    background-color: white;
+    position: absolute;
+    padding: 1rem;
+    bottom: 0px;
+    width: calc(100% - 2rem);
+    height: 1.5rem;
+    
+}
